@@ -1,4 +1,4 @@
-# Integer & Float
+# ----- Integer & Float -----
 print(2 + 5)
 print(2 - 5)
 print(2 * 5)
@@ -12,15 +12,15 @@ print(type(0.00001)) # float
 
 print(type(20 + 1.1)) # converts to float
 
-# Power of
+# power of
 print(2 ** 3) # 8
 
-# Double divide
+# double divide
 print(2 // 4) # 0
 
-# Modulo
+# modulo
 print(5 % 4) # 1
 
-# Math functions
+# ----- Math functions -----
 print(round(3.1))
 print(abs(-20)) # absolute value, pos numbers
