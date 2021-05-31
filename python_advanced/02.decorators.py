@@ -38,7 +38,7 @@ def performance(func):
     t1 = time()
     result = func(*args, **kwargs)
     t2 = time()
-    print(f'It took {t2-t1} ms')
+    print(f'It took {t2-t1} s')
     return result
   return wrapper
 
@@ -47,4 +47,4 @@ def long_time():
   for i in range(1000000):
     i * 5
 
-long_time() # It took 0.1319260597229004 ms
+long_time() # It took 0.1319260597229004 s
